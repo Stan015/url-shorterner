@@ -7,22 +7,13 @@
     /* border: 1px solid red; */
 }
 
-::before, ::after {
-box-sizing: border-box;
-}
-
 html, body {
     width: 100%;
     background-color: #FFFFFF;    
-    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
-}
-
-p {
-    line-height: 1.5rem;
 }
 
 button {
