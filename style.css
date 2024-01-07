@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #342e31;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+::before, ::after {
+box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    background-color: #FFFFFF;    
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    display: block;
+    width: 100%;
+    height: 100svh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #e2e4e8;
+    padding: 2rem;
+    border-radius: 2rem;
+    position: relative;
+    top: calc(50% - 10rem);
+    margin: 0 auto;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #342e31;
+    width: 100%;
+    border-bottom: 2px solid #342e31;
+    text-align: center;
+}
+
+section input {
+    width: 100%;
+    height: 3rem;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    outline: none;
+    transition: all 300ms ease-in;
+
+    &::placeholder {
+        color: #342e31;
+    }
+
+    &:hover, 
+    &:focus {
+        border: 2px solid #f1370b;
+    }
+}
+
+section button {
+    color: #342e31;
+    background-color: #f1370b;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all 300ms ease-in;
+
+    &:hover {
+        border: 2px solid #f1370b;
+        background-color: #e2e4e8;
+        color: #342e31;
+    }
+}
+
+section p {
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+}
+
+.just_a_test {
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 3rem;
+}
+
+.just_a_test a {
+    text-decoration: underline;
+}
+
+.just_a_test a:hover {
+    color: #f1370b;
+}
